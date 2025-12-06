@@ -7,6 +7,9 @@ interface types {
         price: float32,
         description: string,
         image: string,
+        rating: float32,
+        reviews: s32,
+        discount: float32,
     }
 
     variant error {
